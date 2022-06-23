@@ -1,3 +1,39 @@
-body {
-  background-color: aqua;
+*:not(a) {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Greta Sans Condensed Bold", "Greta Sans Bold", Arial, sans-serif;
+}
+
+header {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+  font-size: 14px;
+}
+header img {
+  width: 80%;
+}
+header ul {
+  display: flex;
+}
+header li {
+  list-style: none;
+  margin-right: 30px;
+}
+header li a {
+  text-transform: uppercase;
+  color: black;
+  text-decoration: none;
+  padding: 36px 0;
+}
+header li a:hover {
+  color: #2E82F9;
+}
+header li a.active {
+  color: #2E82F9;
+  border-bottom: 6px solid #2E82F9;
 }
