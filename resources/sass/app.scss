@@ -2,7 +2,6 @@
 @import 'style/utils';
 @import 'style/variable';
 
-
 // HEADER
 
 header{
@@ -48,3 +47,113 @@ header{
     }
 
   }
+
+
+// MAIN
+
+  main{
+    // width: 80%;
+    margin: 0 auto;
+    background-color: #1C1C1C;
+    color: white;
+
+    .hero-section{
+    //   background-image: url({{url('img/jumbotron.dac2f96c.jpg')}});
+      background-size: cover;
+      height: 400px;
+      width: 100%;
+      position: relative;
+
+      button{
+        position: absolute;
+        bottom: -24px;
+        left: 217px;
+
+        background-color: $primary-color;
+        border: none;
+        padding: 15px;
+        text-transform: uppercase;
+        color: white;
+        font-weight: bold;
+        font-size: 16px;
+
+      }
+
+    }
+
+    .card-section{
+      width: 70%;
+      margin: 0 auto;
+      padding: 45px 10px;
+      display: flex;
+      flex-wrap: wrap;
+
+
+      // .card-element{
+
+      //   width: calc((100% / 6) - 20px);
+      //   margin: 0px 10px;
+      //   margin-bottom: 40px;
+
+      //   img{
+      //     margin-bottom: 10px;
+      //     width: 100%;
+
+      //   }
+
+      //   span{
+      //     text-transform: uppercase;
+      //   }
+
+      // }
+
+
+    }
+
+    .load-more-button-container{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 70px;
+      margin-top: -50px;
+
+
+      .load-more-button{
+        background-color: $primary-color;
+        border: none;
+        padding: 10px 45px;
+        color: white;
+        text-transform: uppercase;
+        font-size: 11px;
+        font-weight: bold;
+
+        cursor: pointer;
+      }
+
+    }
+
+
+
+  }
+
+
+//CARDS
+
+.card-element{
+
+    width: calc((100% / 6) - 20px);
+    margin: 0px 10px;
+    margin-bottom: 40px;
+
+    img{
+      margin-bottom: 10px;
+      width: 100%;
+
+    }
+
+    span{
+      text-transform: uppercase;
+      font-size: 14px;
+    }
+
+}

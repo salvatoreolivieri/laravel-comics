@@ -37,3 +37,65 @@ header li a.active {
   color: #2E82F9;
   border-bottom: 6px solid #2E82F9;
 }
+
+main {
+  margin: 0 auto;
+  background-color: #1C1C1C;
+  color: white;
+}
+main .hero-section {
+  background-size: cover;
+  height: 400px;
+  width: 100%;
+  position: relative;
+}
+main .hero-section button {
+  position: absolute;
+  bottom: -24px;
+  left: 217px;
+  background-color: #2E82F9;
+  border: none;
+  padding: 15px;
+  text-transform: uppercase;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+}
+main .card-section {
+  width: 70%;
+  margin: 0 auto;
+  padding: 45px 10px;
+  display: flex;
+  flex-wrap: wrap;
+}
+main .load-more-button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70px;
+  margin-top: -50px;
+}
+main .load-more-button-container .load-more-button {
+  background-color: #2E82F9;
+  border: none;
+  padding: 10px 45px;
+  color: white;
+  text-transform: uppercase;
+  font-size: 11px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.card-element {
+  width: calc(16.6666666667% - 20px);
+  margin: 0px 10px;
+  margin-bottom: 40px;
+}
+.card-element img {
+  margin-bottom: 10px;
+  width: 100%;
+}
+.card-element span {
+  text-transform: uppercase;
+  font-size: 14px;
+}
